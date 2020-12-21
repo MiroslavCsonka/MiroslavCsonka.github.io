@@ -1,2 +1,4 @@
 name: Miroslav Csonka
 markdown: kramdown
+
+theme: jekyll-theme-architect
