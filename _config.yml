@@ -1,4 +1,21 @@
 name: Miroslav Csonka
 markdown: kramdown
+layout: home
+theme: minimal-mistakes-jekyll
+locale: "en-US"
+title: "Miro's blog"
+title_separator: "-"
+author_profile: true
 
-theme: jekyll-theme-architect
+author:
+  name: "Miroslav Csonka"
+  avatar: "/assets/avatar.png"
+  location: "London, UK"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/miroslav-csonka-68973671"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/MiroslavCsonka"
+
