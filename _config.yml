@@ -1,11 +1,13 @@
 name: Miroslav Csonka
 markdown: kramdown
 layout: home
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.21.0"
 locale: "en-US"
 title: "Miro's blog"
 title_separator: "-"
 author_profile: true
+plugins:
+  - jekyll-include-cache
 
 author:
   name: "Miroslav Csonka"
