@@ -6,6 +6,7 @@ locale: "en-US"
 title: "Miro's blog"
 title_separator: "-"
 author_profile: true
+search: true
 plugins:
   - jekyll-include-cache
 
