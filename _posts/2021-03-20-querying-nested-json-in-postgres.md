@@ -71,8 +71,13 @@ Now let's tackle the `LATERAL` part. Think of it as a `each` from a typical prog
 In our example we are using 
 
 ```sql
-LATERAL json_array_elements(orders.raw_payload -> 'line_items') json_line_item
+SELECT orders.id, json_line_item
+FROM orders,
+     LATERAL json_array_elements(orders.raw_payload -> 'line_items') json_line_item
 ```
+
+which would produce
+![lateral_join.png](/assets/postgresql-quering-json/lateral_join.png)
 
 Let's break down each part of the syntax:
 1. `->` access json key and return it as json field. Same as `raw_payload.line_items` in Javascript, or `raw_payload['line_items']` in Ruby
