@@ -16,7 +16,7 @@ Before we get started with queries, let me introduce a simple schema.
 ```sql
 CREATE TABLE orders (
     id          int PRIMARY KEY,
-    raw_payload jsonb
+    raw_payload json
 )
 ```
 `raw_payload` is just a content from [Shopify's order object](https://shopify.dev/docs/admin-api/rest/reference/orders/order). It's going to give us plenty to work for as typical order contains ~400 lines of JSON. 
