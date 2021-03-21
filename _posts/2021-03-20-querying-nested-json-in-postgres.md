@@ -1,4 +1,6 @@
-# Querying JSONs as if they were normal tables
+---
+classes: wide
+---
 
 The core of this technique can be distilled into this query.
 ```sql
