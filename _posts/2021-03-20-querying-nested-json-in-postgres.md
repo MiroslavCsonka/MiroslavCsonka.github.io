@@ -6,7 +6,7 @@ The core of this technique can be distilled into this query.
 ```sql
 SELECT *
 FROM orders,
-     LATERAL json_array_elements(orders.raw_payload -> 'line_items') json_line_items(json_line_item)
+     LATERAL json_array_elements(orders.raw_payload -> 'line_items') json_line_item
 ```
 
 If there's even a single word from this query you don't quite understand, you are in the right place.
@@ -71,14 +71,14 @@ Now let's tackle the `LATERAL` part. Think of it as a `each` from a typical prog
 In our example we are using 
 
 ```sql
-LATERAL json_array_elements(orders.raw_payload -> 'line_items') json_line_items(json_line_item)
+LATERAL json_array_elements(orders.raw_payload -> 'line_items') json_line_item
 ```
 
 Let's break down each part of the syntax:
 1. `->` access json key and return it as json field. Same as `raw_payload.line_items` in Javascript, or `raw_payload['line_items']` in Ruby
 2. `json_array_elements` expand array of jsons into rows
 3. for each order, add the newly created rows from `json_array_elements`
-4. `json_line_items(json_line_item)` call the newly created column `json_line_item`
+4. `json_line_item` call the newly created column `json_line_item`
 
 
 ## Real world examples
@@ -101,7 +101,7 @@ SELECT orders.id                                                        AS order
        json_line_item -> 'id'                                           AS line_item_id,
        discount_allocation -> 'amount_set' -> 'shop_money' ->> 'amount' AS discount_pounds
 FROM orders,
-     LATERAL JSONB_ARRAY_ELEMENTS(orders.raw_payload -> 'line_items') shopify_line_items(json_line_item),
+     LATERAL JSONB_ARRAY_ELEMENTS(orders.raw_payload -> 'line_items') json_line_item,
      LATERAL JSONB_ARRAY_ELEMENTS(json_line_item -> 'discount_allocations') discount_allocations(discount_allocation)
 ```
 ![orders_with_line_items_and_discounts.png](/assets/postgresql-quering-json/orders_with_line_items_and_discounts.png)
