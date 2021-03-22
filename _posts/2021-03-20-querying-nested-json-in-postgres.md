@@ -111,3 +111,4 @@ FROM orders,
 ```
 ![orders_with_line_items_and_discounts.png](/assets/postgresql-quering-json/orders_with_line_items_and_discounts.png)
 
+This technique was shown to me by [@pawelpacana](https://twitter.com/pawelpacana). You won't regret his content.
