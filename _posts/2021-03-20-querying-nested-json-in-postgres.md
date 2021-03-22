@@ -1,4 +1,5 @@
 ---
+title: Querying Nested JSON in PostgreSQL
 classes: wide
 ---
 
