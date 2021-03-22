@@ -45,7 +45,7 @@ For the purposes of this articles, imagine the payload only contains:
   ]
 }
 ```
-Order line this means that there were 2 products purchased, and one of them received £10.30 discount
+With order like this, someone purchased 2 products, and one of them received £10.30 discount
 
 Now that we understand the data, we can start digging into it.
 
