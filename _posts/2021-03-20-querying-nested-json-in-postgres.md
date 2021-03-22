@@ -113,3 +113,5 @@ FROM orders,
 ![orders_with_line_items_and_discounts.png](/assets/postgresql-quering-json/orders_with_line_items_and_discounts.png)
 
 This technique was shown to me by [@pawelpacana](https://twitter.com/pawelpacana). You won't regret his content.
+
+If you have any comments of feedback, engage on [Twitter](https://twitter.com/miroslavcsonka/status/1374118186522714116) or [Reddit](https://www.reddit.com/r/PostgreSQL/comments/mayjjt/querying_nested_json_in_postgres/)
