@@ -3,12 +3,13 @@ markdown: kramdown
 layout: home
 remote_theme: "mmistakes/minimal-mistakes@4.21.0"
 locale: "en-US"
-title: "Miro's blog"
+title: "Miroslav Csonka's blog"
 title_separator: "-"
 author_profile: true
 search: true
 plugins:
   - jekyll-include-cache
+  - jekyll-feed
 
 author:
   name: "Miroslav Csonka"
