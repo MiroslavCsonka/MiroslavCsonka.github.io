@@ -16,10 +16,10 @@ How [Flipper](https://github.com/jnunemaker/flipper) feature flags are missing? 
 
 Imagine you are running your app on [Heroku](https://www.heroku.com). Run a few commands, you are up and running, and everything is great. As you add features, you start needing background jobs. Not a problem. You add [Redis addon](https://elements.heroku.com/addons/heroku-redis) with a few clicks, configure [Sidekiq](http://sidekiq.org), and you are back to building features.
 
-One day, you realize you could benefit from Rails caching, so you head to [documentation](https://github.com/redis-store/redis-rails#usage) and you see that a single line of code is all it takes to have cache in Redis:
+One day, you realize you could benefit from Rails caching, so you head to [documentation](https://guides.rubyonrails.org/caching_with_rails.html#activesupport-cache-rediscachestore) and you see that a single line of code is all it takes to have cache in Redis:
 
 ```ruby
-config.cache_store = :redis_store, "redis://localhost:6379/0/cache", { expires_in: 90.minutes }
+config.cache_store = :redis_cache_store, { url: ENV['REDIS_URL'] }
 ```
 
 Awesome! This is why you love Ruby. Everything is pre-baked, works together, and you focus on features.
