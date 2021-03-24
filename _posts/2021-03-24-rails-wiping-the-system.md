@@ -7,13 +7,7 @@ classes: wide
 
 Let's examine a little snippet
 
-```ruby
-# config/application.rb
-config.cache_store = :redis_cache_store, { url: ENV["REDIS_URL"] }
-
-# anywhere in your code
-Rails.cache.clear
-```
+{% include figure image_path="/assets/rails-redis-cache-bug/hero.png" alt="Summary of the bug" caption="Summary of the bug" %}
 
 Do you see how it wipes every single Sidekiq job and its statistics? How your recurring Sidekiq jobs are gone?
 How [Flipper](https://github.com/jnunemaker/flipper) feature flags are missing? No? We'll then keep on reading.
