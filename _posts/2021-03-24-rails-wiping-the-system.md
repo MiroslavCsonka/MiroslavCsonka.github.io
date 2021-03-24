@@ -10,7 +10,7 @@ Let's examine a little snippet
 {% include figure image_path="/assets/rails-redis-cache-bug/hero.png" alt="Summary of the bug" caption="Summary of the bug" %}
 
 Do you see how it wipes every single Sidekiq job and its statistics? How your recurring Sidekiq jobs are gone?
-How [Flipper](https://github.com/jnunemaker/flipper) feature flags are missing? No? We'll then keep on reading.
+How [Flipper](https://github.com/jnunemaker/flipper) feature flags are missing? No? Well then keep on reading.
 
 ## How and why the bug got introduced?
 
