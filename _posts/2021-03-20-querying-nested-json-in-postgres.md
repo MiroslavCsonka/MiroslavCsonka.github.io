@@ -114,4 +114,22 @@ FROM orders,
 
 This technique was shown to me by [@pawelpacana](https://twitter.com/pawelpacana). You won't regret his content.
 
-If you have any comments of feedback, engage on [Twitter](https://twitter.com/miroslavcsonka/status/1374118186522714116) or [Reddit](https://www.reddit.com/r/PostgreSQL/comments/mayjjt/querying_nested_json_in_postgres/)
+If you have any comments of feedback, engage on 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Do you know how to query nested JSON in <a
+        href="https://twitter.com/PostgreSQL?ref_src=twsrc%5Etfw">@PostgreSQL</a> as if it were tables? <br><br>If not
+    go to <a href="https://t.co/JsByQbnxzO">https://t.co/JsByQbnxzO</a> for a walkthrough of every single word from the
+    query <a href="https://t.co/jiKfkfUD3U">pic.twitter.com/jiKfkfUD3U</a></p>&mdash; Miroslav Csonka (@miroslavcsonka)
+    <a href="https://twitter.com/miroslavcsonka/status/1374118186522714116?ref_src=twsrc%5Etfw">March 22, 2021</a>
+</blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+or 
+
+<blockquote class="reddit-card" data-card-created="1616572366">
+    <a href="https://www.reddit.com/r/PostgreSQL/comments/mayjjt/querying_nested_json_in_postgres/">
+        Querying Nested Json In Postgres
+    </a> from <a href="http://www.reddit.com/r/PostgreSQL">r/PostgreSQL</a>
+</blockquote>
+<script async src="//embed.redditmedia.com/widgets/platform.js" charset="UTF-8"></script>
+
