@@ -83,3 +83,5 @@ For simplicity, we opted for a Redis namespace. This tells Rails to put its item
 # config/application.rb
 config.cache_store = :redis_cache_store, { url: ENV["REDIS_URL"], namespace: "rails" }
 ```
+
+{% include newsletter_form.html %}

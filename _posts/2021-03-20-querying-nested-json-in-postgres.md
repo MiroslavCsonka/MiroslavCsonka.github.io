@@ -133,3 +133,4 @@ or
 </blockquote>
 <script async src="//embed.redditmedia.com/widgets/platform.js" charset="UTF-8"></script>
 
+{% include newsletter_form.html %}
