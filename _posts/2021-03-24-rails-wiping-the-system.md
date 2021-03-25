@@ -84,4 +84,17 @@ For simplicity, we opted for a Redis namespace. This tells Rails to put its item
 config.cache_store = :redis_cache_store, { url: ENV["REDIS_URL"], namespace: "rails" }
 ```
 
+Got questions, comments, or feedback? Reach out at:
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Can you find the problem with the following code? 🤔<br><br>If
+    not, head over to <a href="https://t.co/tCCbmvUiz0">https://t.co/tCCbmvUiz0</a> to read all about it<a
+            href="https://twitter.com/hashtag/rubyonrails?src=hash&amp;ref_src=twsrc%5Etfw">#rubyonrails</a> <a
+            href="https://twitter.com/hashtag/Rails?src=hash&amp;ref_src=twsrc%5Etfw">#Rails</a> <a
+            href="https://twitter.com/hashtag/sidekiq?src=hash&amp;ref_src=twsrc%5Etfw">#sidekiq</a> <a
+            href="https://twitter.com/hashtag/redis?src=hash&amp;ref_src=twsrc%5Etfw">#redis</a> <a
+            href="https://t.co/pH4UYfu6oB">pic.twitter.com/pH4UYfu6oB</a></p>&mdash; Miroslav Csonka (@miroslavcsonka)
+    <a href="https://twitter.com/miroslavcsonka/status/1375112306040975369?ref_src=twsrc%5Etfw">March 25, 2021</a>
+</blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 {% include newsletter_form.html %}
