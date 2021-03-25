@@ -10,7 +10,6 @@ search: true
 plugins:
   - jekyll-include-cache
   - jekyll-feed
-  - jekyll-analytics
 
 author:
   name: "Miroslav Csonka"
@@ -42,7 +41,8 @@ defaults:
       share: true
       related: true
 
-jekyll_analytics:
-  Plausible:
-    domain: 'miroslavcsonka.com'
-    source: 'https://plausible.io/js/plausible.js'
+analytics:
+  provider: "custom"
+  google:
+    tracking_id: "UA-1234567-8"
+    anonymize_ip: false # default
