@@ -40,6 +40,7 @@ defaults:
       comments: true
       share: true
       related: true
+      show_date: true
 
 analytics:
   provider: "custom"
