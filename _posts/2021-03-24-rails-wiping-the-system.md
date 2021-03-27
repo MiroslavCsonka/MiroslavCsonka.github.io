@@ -1,6 +1,10 @@
 ---
 title: Rails cache wiping the system
 classes: wide
+tags:
+  - Rails
+  - Sidekiq
+  - Redis
 ---
 
 ## The problem

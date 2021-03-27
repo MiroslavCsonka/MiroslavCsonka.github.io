@@ -7,6 +7,7 @@ title: "Miroslav Csonka's blog"
 title_separator: "-"
 author_profile: true
 search: true
+include: ["_pages"]
 plugins:
   - jekyll-include-cache
   - jekyll-feed
@@ -26,8 +27,13 @@ author:
       icon: "fab fa-fw fa-twitter"
       url: "https://twitter.com/miroslavcsonka"
 
-
 defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
   # _posts
   - scope:
       path: ""
@@ -47,3 +53,10 @@ analytics:
   google:
     tracking_id: "UA-1234567-8"
     anonymize_ip: false # default
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/

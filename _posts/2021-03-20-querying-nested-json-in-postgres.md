@@ -1,6 +1,9 @@
 ---
 title: Querying Nested JSON in PostgreSQL
 classes: wide
+tags:
+  - JSON
+  - PostgreSQL
 ---
 
 The core of this technique can be distilled into this query.
