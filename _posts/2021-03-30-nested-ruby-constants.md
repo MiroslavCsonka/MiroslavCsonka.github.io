@@ -153,3 +153,21 @@ end
 
 This obvious, yet simple trick shows the structure via nesting, is less error prone, `git diff` is clearer, and uses just
 plain Ruby. What's not to love?
+
+
+Got questions, comments, or feedback? Reach out at:
+<blockquote class="twitter-tweet">
+    <p lang="en" dir="ltr">Did you know you can define <a
+            href="https://twitter.com/hashtag/Ruby?src=hash&amp;ref_src=twsrc%5Etfw">#Ruby</a> constants in a nested
+        way?
+        <br>
+        <br>
+        Visit <a href="https://t.co/RV0yKUDhlG">https://t.co/RV0yKUDhlG</a> for a deeper explanation with
+        examples <a href="https://t.co/4mlv3KkkSr">pic.twitter.com/4mlv3KkkSr</a></p>&mdash; Miroslav Csonka
+    (@miroslavcsonka) <a href="https://twitter.com/miroslavcsonka/status/1377576893365518339?ref_src=twsrc%5Etfw">April
+    1, 2021</a>
+</blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+{% include newsletter_form.html %}
