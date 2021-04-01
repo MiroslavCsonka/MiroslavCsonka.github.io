@@ -45,6 +45,6 @@ When I misunderstand something and write about it, I hope, people will tell me a
 
 ## Build my brand
 
-As a genetic Ruby software contractor, I'm paid for my time, not for my results. I would like to specialise in a narrower field and focus on solving problems, rather than sell my time. Blogging is a great way to showcase my skills and attract clients. I want to work with people that want **ME**, not just a random Ruby body.
+As a generic Ruby software contractor, I'm paid for my time, not for my results. I would like to specialise in a narrower field and focus on solving problems, rather than sell my time. Blogging is a great way to showcase my skills and attract clients. I want to work with people that want **ME**, not just a random Ruby body.
 
 {% include newsletter_form.html %}
